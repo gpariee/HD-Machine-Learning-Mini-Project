@@ -1,0 +1,86 @@
+{
+  "n_rows": 1025,
+  "n_cols": 14,
+  "columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "target"
+  ],
+  "missing_values_total": 0,
+  "class_balance": {
+    "1": 526,
+    "0": 499
+  },
+  "range_check_vs_paper_table9": {
+    "age": {
+      "paper_range": [
+        29,
+        77
+      ],
+      "observed_range": [
+        29.0,
+        77.0
+      ],
+      "matches": true
+    },
+    "trestbps": {
+      "paper_range": [
+        94,
+        200
+      ],
+      "observed_range": [
+        94.0,
+        200.0
+      ],
+      "matches": true
+    },
+    "chol": {
+      "paper_range": [
+        126,
+        564
+      ],
+      "observed_range": [
+        126.0,
+        564.0
+      ],
+      "matches": true
+    },
+    "thalach": {
+      "paper_range": [
+        71,
+        202
+      ],
+      "observed_range": [
+        71.0,
+        202.0
+      ],
+      "matches": true
+    },
+    "oldpeak": {
+      "paper_range": [
+        0,
+        6.2
+      ],
+      "observed_range": [
+        0.0,
+        6.2
+      ],
+      "matches": true
+    }
+  },
+  "n_exact_duplicate_rows": 723,
+  "n_unique_rows": 302,
+  "max_repeat_count_single_record": 8,
+  "mean_repeat_count": 3.3940397350993377
+}

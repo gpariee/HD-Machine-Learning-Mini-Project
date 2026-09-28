@@ -1,0 +1,20 @@
+DUPLICATE ROW ANALYSIS
+============================================================
+Total rows in file:              1025
+Fully duplicated rows (exact):    723 (70.5% of the dataset)
+Unique rows after de-duplication: 302
+
+Interpretation: the paper (Sec. 4) states the dataset 'is made up of four databases: Cleveland, Hungary, Switzerland, and Long Beach V' totalling 1025 records. The de-duplicated row count found here (n=302) closely matches the size of the original single-source UCI Cleveland dataset (303 records, 1 of which is commonly dropped due to missing values, giving 302). This is strong evidence that the 1025-row file is the Cleveland subset replicated with repeats rather than an independent four-database merge, and that a plain random train/test split on this file leaks near-identical rows across the train and test partitions.
+
+Top 10 most-repeated unique patient records:
+     count
+9        8
+15       4
+16       4
+292      4
+293      4
+280      4
+281      4
+13       4
+296      4
+298      4

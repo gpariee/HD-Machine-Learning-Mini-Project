@@ -1,0 +1,42 @@
+{
+  "accuracy": {
+    "baseline_mean": 0.8511827956989249,
+    "proposed_mean": 0.8178494623655913,
+    "mean_diff": -0.03333333333333355,
+    "wilcoxon_stat": 6.0,
+    "p_value": 0.21875,
+    "significant_at_0.05": false
+  },
+  "precision": {
+    "baseline_mean": 0.8448066480303323,
+    "proposed_mean": 0.8058032335741314,
+    "mean_diff": -0.039003414456200924,
+    "wilcoxon_stat": 4.0,
+    "p_value": 0.0546875,
+    "significant_at_0.05": false
+  },
+  "recall": {
+    "baseline_mean": 0.8974264705882353,
+    "proposed_mean": 0.8915441176470587,
+    "mean_diff": -0.005882352941176672,
+    "wilcoxon_stat": 11.5,
+    "p_value": 0.78125,
+    "significant_at_0.05": false
+  },
+  "f1": {
+    "baseline_mean": 0.8660672561407855,
+    "proposed_mean": 0.8417923747264353,
+    "mean_diff": -0.02427488141435019,
+    "wilcoxon_stat": 9.0,
+    "p_value": 0.25,
+    "significant_at_0.05": false
+  },
+  "auc": {
+    "baseline_mean": 0.9119687297996123,
+    "proposed_mean": 0.8956427763413058,
+    "mean_diff": -0.016325953458306453,
+    "wilcoxon_stat": 9.0,
+    "p_value": 0.12890625,
+    "significant_at_0.05": false
+  }
+}
