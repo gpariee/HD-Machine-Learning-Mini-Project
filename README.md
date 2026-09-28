@@ -39,8 +39,7 @@ prediction." *Multimedia Tools and Applications*, 84, 36351-36375.
 │   └── part2/   (CSV/JSON metrics tables produced by part2*.py)
 ├── figures/     (all PNG figures referenced in the report)
 ├── report/
-│   ├── technical_report.pdf
-│   └── technical_report.md      # source markdown for the report
+│   └── technical_report.pdf
 ├── requirements.txt
 └── README.md   (this file)
 ```
@@ -122,8 +121,8 @@ jupyter notebook notebooks/
 
 ## 6. Video presentation & hosting
 
-- Video presentation link: **[INSERT LINK HERE]**
-- This archive is also hosted at: **[INSERT GITHUB/ONEDRIVE/DROPBOX LINK HERE]**
+- Video presentation link: https://drive.google.com/file/d/1HLwDioGNV-u2mArWC496cAxhsx5nvSmZ/view?usp=drivesdk
+- GitHub repository: https://github.com/gpariee/HD-Machine-Learning-Mini-Project
 
 ## 7. Notes on reproducibility and stochasticity
 
