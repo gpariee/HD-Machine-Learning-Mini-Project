@@ -41,6 +41,7 @@ prediction." *Multimedia Tools and Applications*, 84, 36351-36375.
 ├── report/
 │   └── technical_report.pdf
 ├── requirements.txt
+└── video_slides.pptx
 └── README.md   (this file)
 ```
 
@@ -121,7 +122,7 @@ jupyter notebook notebooks/
 
 ## 6. Video presentation & hosting
 
-- Video presentation link: https://drive.google.com/file/d/1HLwDioGNV-u2mArWC496cAxhsx5nvSmZ/view?usp=drivesdk
+- Video presentation link: https://docs.google.com/videos/d/1u5iJpBG6-YY_wvgUBGMrECKPyV8KERXP14zDr58zwrQ/play?usp=sharing
 - GitHub repository: https://github.com/gpariee/HD-Machine-Learning-Mini-Project
 
 ## 7. Notes on reproducibility and stochasticity
